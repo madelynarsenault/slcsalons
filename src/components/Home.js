@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import Carousel from "./Carousel";
 
 class Home extends Component{
     render(){
@@ -13,7 +14,7 @@ class Home extends Component{
                         <li>Home</li>
                         </Link>
                             <Link className="aboutLink"to="/about">
-                        <li>About</li>
+                        <li>Rentals</li>
                         </Link>
                             <Link className="salonLink"to="/salons">
                         <li>Salons</li>
@@ -22,7 +23,11 @@ class Home extends Component{
                     </nav>
 
                 </div>
+                <div>
+                    <Carousel/>
+                </div>
             </main>
+            
         )
     }
 }

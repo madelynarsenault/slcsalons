@@ -1,0 +1,50 @@
+.rentTitle{
+    font-family: 'Pontano Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    font-size: 7.5ch;
+    color:rgba(0, 67, 126, 0.817);
+    
+}
+
+.rentList{
+    display: flex;
+    flex-direction: column;
+    line-height: 2ch;
+    margin-left: 37%;
+    font-size: 3ch;
+    list-style: circle;
+    line-height: 4ch;
+    font-family: 'Pontano Sans', sans-serif;
+    
+}
+
+.moreBooth{
+    display: flex;
+    justify-content: center;
+    font-size: 5ch;
+    color:rgb(0, 0, 0);
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 1;
+
+}
+.titlesRent{
+line-height: 3.5ch;
+}
+
+.contactDiv{
+    display: flex;
+flex-direction: column;
+line-height: 9px;
+justify-content: center;
+
+}
+
+.rentingTitle, .addressTitle, .contactInfo{
+    display:flex;
+    justify-content: center;
+}
+.rentingTitle{
+color:rgba(0, 67, 126, 0.817);
+
+}

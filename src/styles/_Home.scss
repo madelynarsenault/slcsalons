@@ -16,7 +16,7 @@ font-family: 'Playfair Display', serif;
 
 
 .navBar{
-   background-color: rgb(2, 82, 156);
+   background-color: rgb(4, 71, 129);
    color:white;
    height: 13.3vh;
    display:flex;
@@ -41,7 +41,7 @@ font-size:2.5ch;
     @include linkFonts;
     cursor: pointer;
     &:hover{
-        color:purple;
+        color: rgb(117, 170, 227);
     }
 }
 

@@ -1,0 +1,56 @@
+.jessicaPic{
+    width: auto;
+    max-width: 60ch;
+    height: auto;
+    max-height:20ch;
+    border-radius: 50%;
+    position: relative;
+}
+
+.teamTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 5ch;
+    font-family: 'Spartan', ;
+
+}
+
+.salonRenters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
+    width: 50vw;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 24%;
+}
+
+.salonDivs{
+    border-color:rgba(0, 67, 126, 0.817);
+    border-radius: 8px;
+    border-style: solid;
+    width:30%;
+    margin-bottom: 40px;;
+}
+.jessica-title, .jessicaParagraph, .vacantSuite, .wmtLink{
+    display:flex;
+    justify-content: center;
+    font-family: 'Spartan', ;
+
+}
+.vacantParagraph{
+    display:flex;
+    justify-content: center;
+    font-family: 'Spartan', ;
+    color:rgb(193, 7, 7)
+}
+.wmtLink{
+    text-decoration: none;
+    color:black;
+    margin-bottom: 19px;
+    &:hover{
+        color:blue
+    }
+    
+}
